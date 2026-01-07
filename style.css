@@ -1,0 +1,116 @@
+:root{
+--White-color: hsl(0, 0%, 100%);
+--Stone-100: hsl(30, 54%, 90%);
+--Stone-150: hsl(30, 18%, 87%);
+--Stone-600: hsl(30, 10%, 34%);
+--ms-input-placeholder-900: hsl(24, 5%, 18%);
+
+--Brown-800: hsl(14, 45%, 36%);
+
+--Rose-800: hsl(332, 51%, 32%);
+--Rose-50: hsl(330, 100%, 98%);
+
+}
+body{
+    height: 100vh;
+    background-color: var(--White-color);
+}
+
+.containe{
+width: 100%;
+background-color: var(--Stone-100);
+}
+h1, h2, h3{
+    font-family: "Young Serif", serif;
+}
+.card{
+    width: 43%;
+    background-color: white;
+}
+@media(max-width:767px){
+    
+.card{
+    width: 100%;
+    
+}
+.container{
+    background-color:white;
+}
+}
+
+.text h1{
+    color:var(--ms-input-placeholder-900) ;
+}
+.text  p{
+color: var(--Stone-600);
+font-size: 15px;
+}
+.box h3{
+color: var(--Rose-800);
+
+}
+/*start box*/
+.box ul li span{
+color: var(--Stone-600);
+}
+/*end boc*/
+
+/*start text2*/
+.text2 h2{
+color: var(--Brown-800);
+}.text3 h2{
+color: var(--Brown-800);
+}
+.text3 ol{
+    color: var(--Brown-800);
+}
+.text3 ol li span{
+color: var(--ms-input-placeholder-900);
+font-weight: bold;
+}
+.text3 ol li {
+color: var(--Stone-600);
+}
+
+
+/*end text3*/
+/*start text4*/
+
+.text4{
+    position: relative;
+}
+.text4 h2{
+color: var(--Brown-800);
+}
+.text4 ul{
+    list-style: none;
+}
+.text4 ul span{
+    color: var(--Brown-800);
+    position: absolute;
+    left: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
